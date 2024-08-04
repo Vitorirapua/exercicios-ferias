@@ -12,3 +12,5 @@ consoantes = {"b", "d", "f"}
 
 print("O conjunto consoantes está presente no conjunto letras:", consoantes.issubset(letras))
 
+uniao = letras.union(consoantes)
+print("União dos conjuntos letras e consoantes:", uniao)
